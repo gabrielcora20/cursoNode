@@ -1,0 +1,8 @@
+CREATE DATABASE db_noticias;
+USE db_noticias;
+CREATE TABLE noticias(
+id_noticia INT PRIMARY KEY AUTO_INCREMENT,
+titulo VARCHAR(100),
+noticia VARCHAR(255),
+data_noticia TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
